@@ -1,4 +1,4 @@
-* {
+ *{
   box-sizing: border-box;
 }
 h1 {
@@ -9,8 +9,7 @@ h1 {
 h2 {
   border: 1px solid black;
   width: 150px;
-  margin-top: 0px;
-  margin-bottom: 5px;
+  margin: 0px 0px 5px 0px;
   text-align: center;
   padding: 5px;
   background-color: salmon;
@@ -18,35 +17,20 @@ h2 {
   font-family: Helvetica;
   float: right;
   position: relative;
-  right: 0px;
-  top: 0px;
-}
-.row {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: black;
-  text-align: left;
 }
 p {
   position: relative;
   text-align: left;
-  margin-left: 20px;
-  margin-top: 60px;
-  margin-right: 20px; 
-  margin-bottom: 20px;
+  margin: 60px 20px 15px 20px;
 }
 .section {
   position: relative;
   background-color: gray;
   border: 1px solid black;
   height: 250px;
-  margin-bottom: 25px;
-  margin-right: 40px;
-  margin-left: 40px
-  padding: 20px;
+  padding: 0px 0px 15px 15px;
   overflow: auto;
+  margin: 0px 25px 25px 25px;
 }  
 #beef {
   background-color: red;
@@ -56,8 +40,13 @@ p {
   background-color: yellow;
 }
 /* Simple Responsive Framework. */
-.grid {
+.row {
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+  text-align: left;
 }
 
 
